@@ -6,6 +6,9 @@ public class AirlineService {
 
     Greeting greeting;
 
+    public AirlineService() {
+    }
+
     public AirlineService(Greeting greeting) {
         this.greeting = greeting;
     }
