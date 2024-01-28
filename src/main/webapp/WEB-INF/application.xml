@@ -8,11 +8,10 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
     <bean id="airlineService"
-          class="com.kitri.springbasic.di.AirlineService">
+          class="com.kitri.springbasic.di.AirlineService" autowire="constructor">
     </bean>
     <bean id="hotelService"
           class="com.kitri.springbasic.di.HotelService" autowire="constructor">
-
     </bean>
     <bean id="greeting"
           class="com.kitri.springbasic.di.KoreanGreeting">

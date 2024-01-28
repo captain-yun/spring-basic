@@ -13,7 +13,7 @@ public class HotelService {
         this.greeting = greeting;
     }
 
-    String welcome() {
+    public String welcome() {
         return greeting.helloFromHotel();
     }
 }

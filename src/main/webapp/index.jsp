@@ -14,7 +14,7 @@
     <div class="row mt-1">
         <div class="col-md-4">
             <div class="p-card bg-white p-2 rounded px-3">
-                <h5 class="mt-2">DI/IOC</h5><span class="badge badge-danger py-1 mb-2">DI/IOC &amp; Bean</span><span class="d-block mb-5"></span>
+                <h5 class="mt-2"><a href="greeting">DI/IOC</a></h5><span class="badge badge-danger py-1 mb-2">DI/IOC &amp; Bean</span><span class="d-block mb-5"></span>
                 <div class="d-flex justify-content-between stats"> </div>
             </div>
         </div>
